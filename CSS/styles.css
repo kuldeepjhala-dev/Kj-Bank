@@ -116,10 +116,20 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   background-color: #141010;
 }
 
-/* CUSTOMER-TITLE */
+/* CUSTOMER-PAGE */
 
 .customer-title {
   text-align: center;
   color: #FFF8B6;
   font-size: 4rem;
+  background-color: #141010;
+}
+
+/* TRANSACTION-PAGE */
+
+.transaction-title {
+  text-align: center;
+  color: #FFF8B6;
+  font-size: 4rem;
+  background-color: #141010;
 }
