@@ -4,6 +4,6 @@ include 'dbcon.php';
 
 $query = "select * from customer";
 
-$result = msqli_query($dbCon,$query);
+$result = mysqli_query($dbcon,$query);
 
  ?>
