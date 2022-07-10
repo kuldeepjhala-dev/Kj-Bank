@@ -175,9 +175,49 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 /* TRANSACTION.PHP */
 
+.transaction-body {
+  background-color: #141010;
+}
+
 .transaction-title {
   text-align: center;
   color: #FFF8B6;
   font-size: 4rem;
-  background-color: #141010;
+  background-color: #212529;
+  margin: 30px 115px 30px 115px;
+  border-radius: 6px;
+}
+
+/* MONEY-SENDER */
+
+.money-sender {
+
+}
+
+.money-sender-div-1 {
+  height: 50px;
+  width: 200px;
+  border-radius: 6px;
+  margin: 30px 115px 30px 115px;
+  color: #FFF8B6;
+  background-color: #212529;
+  text-align: center;
+  font-size: 2rem;
+}
+
+/* MONEY-RECIEVER */
+
+.money-reciever {
+
+}
+
+.money-reciever-div-1 {
+  height: 50px;
+  width: 200px;
+  border-radius: 6px;
+  margin: 30px 115px 30px 115px;
+  color: #FFF8B6;
+  background-color: #212529;
+  text-align: center;
+  font-size: 2rem;
 }
