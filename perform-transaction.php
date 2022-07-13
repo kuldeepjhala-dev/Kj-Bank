@@ -45,8 +45,6 @@
             Sender
           </div>
 
-          
-
       </div>
 
       <div class="money-reciever">
