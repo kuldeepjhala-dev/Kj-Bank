@@ -39,21 +39,13 @@
 
     ?>
 
-      <div class="money-sender">
+    <div class="sender-reciever-details">
 
-          <div class="money-sender-div-1">
-            Sender
-          </div>
-
-      </div>
-
-      <div class="money-reciever">
-
-        <div class="money-reciever-div-1">
-            Reciever
+        <div class="sender-title">
+          sender details
         </div>
 
-      </div>
+    </div>
 
   </body>
 </html>
