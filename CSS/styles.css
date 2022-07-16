@@ -1,5 +1,4 @@
 /* INDEX.HTML */
-
 /* TOP-CONTAINER */
 .top-container {
   text-align: center;
@@ -30,7 +29,6 @@
 }
 
 /* MIDDLE-CONTAINER */
-
 .middle-container {
   text-align: center;
   background-color: #141010;
@@ -60,24 +58,24 @@
 .card {
   width: 500px;
   height: 200px;
-  align-self:center;
-  margin-left:auto;
-  margin-right:auto;
-  margin-top:50vh;
-  display:grid;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50vh;
+  display: grid;
   grid-template-columns: 1fr;
 }
 
 .frosty {
-position: absolute;
-top: -175px;
-left: 20px;
-background: rgba( 255, 255, 255, 0.25 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 8.0px );
--webkit-backdrop-filter: blur( 8.0px );
-border-radius: 9px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+  position: absolute;
+  top: -175px;
+  left: 20px;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8.0px);
+  -webkit-backdrop-filter: blur(8.0px);
+  border-radius: 9px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .login-button {
@@ -102,7 +100,6 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 /* BOTTOM-CONTAINER */
-
 .bottom-container {
   height: 60px;
   background-color: #141010;
@@ -119,13 +116,11 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 /* CUSTOMER.PHP */
-
 .customer-body {
   background-color: #141010;
 }
 
 /* CUSTOMER-TITLE */
-
 .customer-title {
   text-align: center;
   color: #FFF8B6;
@@ -140,41 +135,46 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 /* CUSTOMER-TABLE */
+.table-curved {
+  border-collapse: separate;
+}
 
 .table-curved {
-    border-collapse: separate;
+  border: solid #ccc 1px;
+  border-radius: 6px;
+  border-left: 0px;
 }
-.table-curved {
-    border: solid #ccc 1px;
-    border-radius: 6px;
-    border-left:0px;
-}
+
 .table-curved td, .table-curved th {
-    border-left: 1px solid #ccc;
-    border-top: 1px solid #ccc;
-}
-.table-curved th {
-    border-top: none;
-}
-.table-curved th:first-child {
-    border-radius: 6px 0 0 0;
-}
-.table-curved th:last-child {
-    border-radius: 0 6px 0 0;
-}
-.table-curved th:only-child{
-    border-radius: 6px 6px 0 0;
-}
-.table-curved tr:last-child td:first-child {
-    border-radius: 0 0 0 6px;
-}
-.table-curved tr:last-child td:last-child {
-    border-radius: 0 0 6px 0;
+  border-left: 1px solid #ccc;
+  border-top: 1px solid #ccc;
 }
 
+.table-curved th {
+  border-top: none;
+}
+
+.table-curved th:first-child {
+  border-radius: 6px 0 0 0;
+}
+
+.table-curved th:last-child {
+  border-radius: 0 6px 0 0;
+}
+
+.table-curved th:only-child {
+  border-radius: 6px 6px 0 0;
+}
+
+.table-curved tr:last-child td:first-child {
+  border-radius: 0 0 0 6px;
+}
+
+.table-curved tr:last-child td:last-child {
+  border-radius: 0 0 6px 0;
+}
 
 /* TRANSACTION.PHP */
-
 .transaction-body {
   background-color: #141010;
 }
@@ -189,18 +189,40 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 /* MONEY-SENDER */
-
 .sender-reciever-details {
-  background-color: red;
-  position: relative;
+  background-color: #212529;
   height: 400px;
-  width:1135px;
+  width: 1135px;
   margin: 30px 115px 30px 115px;
   border-radius: 6px;
+  padding: 10px;
 }
 
 .sender-title {
-  background-color: blue;
-  position: absolute;
-  height: 
+  text-align: center;
+  font-size: 1.5rem;
+  width: 200px;
+  height: 40px;
+  color: #000;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+  border-radius: 6px;
+  margin:1em auto ;
+}
+
+.table-sender {
+ background-color: #FFF8B6;
+
+}
+
+.reciever-title {
+  text-align: center;
+  font-size: 1.5rem;
+  width: 200px;
+  height: 40px;
+  color: #000;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+  border-radius: 6px;
+  margin:1em auto ;
 }

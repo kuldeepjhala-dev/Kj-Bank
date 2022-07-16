@@ -19,5 +19,55 @@
       Transaction
     </div>
 
+    <div class="container mt-2">
+    <div class="row">
+        <div class="col-md-12">
+
+            <table class="table table-hover table-dark table-curved">
+              <thead>
+                <tr>
+                  <th scope="col">Sender</th>
+                  <th scope="col">Reciever</th>
+                  <th scope="col">Amount</th>
+                </tr>
+              </thead>
+              <tbody>
+                <?php
+
+                include 'dbcon.php';
+
+                $query = "select * from transaction";
+
+                $result = mysqli_query($dbcon,$query);
+
+                 ?>
+
+                <?php if ($result->num_rows > 0): ?>
+
+                <?php while($array=mysqli_fetch_row($result)): ?>
+
+                <tr>
+
+                    <td><?php echo $array[0];?></td>
+                    <td><?php echo $array[1];?></td>
+                    <td><?php echo $array[2];?></td>
+
+                </tr>
+
+                <?php endwhile; ?>
+
+                <?php else: ?>
+                <tr>
+                   <td colspan="3" rowspan="1" headers="">No Data Found</td>
+                </tr>
+                <?php endif; ?>
+
+                <?php mysqli_free_result($result); ?>
+
+              </tbody>
+            </table>
+        </div>
+    </div>
+
   </body>
 </html>
